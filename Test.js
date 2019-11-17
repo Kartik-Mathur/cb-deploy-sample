@@ -4,11 +4,11 @@ const app = express()
 const PORT = process.env.PORT||4433 
 
 app.get('/',(req,res)=>{
-    res.send('Hello! This is a sample app')
+    res.send('Hello! This is an awesome app')
 })
 
 app.get('/app',(req,res)=>{
-    res.send('Hello you are in our main app')
+    res.send('Hello you are in the app')
 })
 
 app.listen(PORT,()=>{
